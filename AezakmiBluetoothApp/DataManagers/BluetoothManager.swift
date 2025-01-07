@@ -45,7 +45,7 @@ class BluetoothManager: NSObject, ObservableObject, CBCentralManagerDelegate, CB
     }
     
     func stopScanning() {
-        RealmManager.shared.saveDevices(discoveredDevices)
+        RealmManager.shared.saveSearchSeans(SearchSeans(date: Date(), devices: discoveredDevices))
         centralManager.stopScan()
         print("Scanning stopped.")
     }
