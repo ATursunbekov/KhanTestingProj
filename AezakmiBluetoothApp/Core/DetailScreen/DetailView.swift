@@ -24,19 +24,22 @@ struct DetailView: View {
                 Spacer()
             }
             
-            
-            Text("Device name: \(device.name)")
-                .font(.system(size: 24, weight: .bold))
-            Text("UUID: \(device.uuid)")
-                .font(.system(size: 18, weight: .medium))
-                .foregroundColor(.gray)
-            Text("RSSI: \(device.rssi)")
-                .font(.system(size: 18, weight: .medium))
-                .foregroundColor(.gray)
-            
-            Spacer()
+            List {
+                Text("Device name: \(device.name)")
+                    .font(.system(size: 24, weight: .bold))
+                Text("UUID: \(device.uuid)")
+                    .font(.system(size: 18, weight: .medium))
+                    .foregroundColor(.gray)
+                Text("RSSI: \(device.rssi)")
+                    .font(.system(size: 18, weight: .medium))
+                    .foregroundColor(.gray)
+                Text("Date: \(device.date)")
+                    .font(.system(size: 18, weight: .medium))
+                    .foregroundColor(.gray)
+            }
         }
-        .padding(.horizontal)
+        .navigationTitle("Detected Device")
+        .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden()
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
