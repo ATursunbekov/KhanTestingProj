@@ -7,6 +7,5 @@ target 'AezakmiBluetoothApp' do
 
   pod 'lottie-ios'
   pod 'Realm'
-  pod 'RealmSwift'
-
+  pod 'RealmSwift'  
 end

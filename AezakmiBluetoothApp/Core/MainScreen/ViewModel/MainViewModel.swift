@@ -1,5 +1,5 @@
 //
-//  BluetoothManager.swift
+//  MainViewModel.swift
 //  AezakmiBluetoothApp
 //
 //  Created by Alikhan Tursunbekov on 6/1/25.
