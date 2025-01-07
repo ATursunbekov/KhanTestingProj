@@ -20,9 +20,6 @@ class HistoryViewModel: ObservableObject {
     }
     
     var filteredDevices: [SearchSeans] {
-        print(fromDate)
-        print("--------------")
-        print(toDate)
         if searchText.isEmpty {
             return searchSeances.filter { $0.date >= fromDate && $0.date <= toDate }.sorted { $0.date > $1.date }
         } else {
