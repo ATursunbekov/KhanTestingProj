@@ -13,6 +13,7 @@ struct AezakmiBluetoothAppApp: App {
         WindowGroup {
             NavigationView {
                 MainView()
+                    .preferredColorScheme(.light)
             }
         }
     }
