@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DetailView: View {
     
-    var device: BluetoothDevice = BluetoothDevice(name: "asdas", uuid: "dsadsa", rssi: 213, status: .disconnected)
+    var device: BluetoothDevice
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
     var body: some View {
@@ -33,9 +33,6 @@ struct DetailView: View {
             Text("RSSI: \(device.rssi)")
                 .font(.system(size: 18, weight: .medium))
                 .foregroundColor(.gray)
-            Text("Status: \(device.status.rawValue)")
-                .font(.system(size: 14, weight: .medium))
-                .foregroundColor(device.status == .connected ? .green : .red)
             
             Spacer()
         }
@@ -54,6 +51,6 @@ struct DetailView: View {
     }
 }
 
-#Preview {
-    DetailView()
-}
+//#Preview {
+//    DetailView()
+//}
