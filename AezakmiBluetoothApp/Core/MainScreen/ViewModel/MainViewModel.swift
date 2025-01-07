@@ -7,7 +7,7 @@
 
 import CoreBluetooth
 
-class BluetoothManager: NSObject, ObservableObject, CBCentralManagerDelegate, CBPeripheralDelegate {
+class MainViewModel: NSObject, ObservableObject, CBCentralManagerDelegate, CBPeripheralDelegate {
     @Published var discoveredDevices: [BluetoothDevice] = []
     @Published var isPowerOn = true
     @Published var bluetoothTurnedOff = false

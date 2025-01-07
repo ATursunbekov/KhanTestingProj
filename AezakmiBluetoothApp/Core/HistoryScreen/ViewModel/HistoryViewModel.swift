@@ -17,17 +17,17 @@ class HistoryViewModel: ObservableObject {
     
     var filteredDevices: [SearchSeans] {
         if searchText.isEmpty {
-            return searchSeances.filter { $0.date >= fromDate && $0.date <= toDate }
+            return searchSeances.filter { $0.date >= fromDate && $0.date <= toDate }.sorted { $0.date > $1.date }
         } else {
             return searchSeances.filter { $0.date >= fromDate && $0.date <= toDate }.filter { seans in
                 seans.devices.contains { device in
                     device.name.lowercased().contains(searchText.lowercased())
                 }
-            }
+            }.sorted { $0.date > $1.date }
         }
     }
     
     func fetchAllDevices() {
-        searchSeances = RealmManager.shared.fetchSearchSeans()
+        searchSeances = RealmManager.shared.fetchSearchSeans().sorted { $0.date > $1.date }
     }
 }

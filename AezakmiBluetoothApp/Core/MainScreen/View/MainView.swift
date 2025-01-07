@@ -13,7 +13,7 @@ struct MainView: View {
     @State private var showSuccessPopup = false
     @State private var showSearchingView = false
     @State private var deviceCount = 0
-    @StateObject private var bluetoothManager = BluetoothManager()
+    @StateObject private var viewModel = MainViewModel()
     
     var body: some View {
         if showSplash {
@@ -45,7 +45,7 @@ struct MainView: View {
                     .padding()
                     
                     List {
-                        ForEach(bluetoothManager.discoveredDevices) { device in
+                        ForEach(viewModel.discoveredDevices) { device in
                             NavigationLink(destination: DetailView(device: device)) {
                                 Text("Device name: \(device.name)")
                                     .font(.system(size: 18, weight: .medium))
@@ -65,7 +65,7 @@ struct MainView: View {
                     }
                     .overlay(content: {
                         ZStack {
-                            if showSuccessPopup || showSearchingView || bluetoothManager.bluetoothTurnedOff {
+                            if showSuccessPopup || showSearchingView || viewModel.bluetoothTurnedOff {
                                 Color.white
                                     .frame(width: 250, height: 250)
                                     .cornerRadius(20)
@@ -80,7 +80,7 @@ struct MainView: View {
                                         .fontWeight(.medium)
                                         .font(.system(size: 18))
                                 }
-                            } else if bluetoothManager.bluetoothTurnedOff {
+                            } else if viewModel.bluetoothTurnedOff {
                                 VStack {
                                     LottieView(animationFileName: "error", loopMode: .autoReverse)
                                         .frame(width: 150, height: 150)
@@ -92,7 +92,7 @@ struct MainView: View {
                                             .offset(y: -10)
                                         
                                         Button{
-                                            bluetoothManager.bluetoothTurnedOff = false
+                                            viewModel.bluetoothTurnedOff = false
                                         }label: {
                                             Text("OK")
                                                 .font(.headline)
@@ -127,7 +127,7 @@ struct MainView: View {
                         }
                     })
                 }
-                if bluetoothManager.discoveredDevices.isEmpty {
+                if viewModel.discoveredDevices.isEmpty {
                     Text("No devices!")
                         .font(.system(size: 32, weight: .bold))
                 }
@@ -136,13 +136,13 @@ struct MainView: View {
     }
     
     private func startScan() {
-        bluetoothManager.startScanning()
-        if !bluetoothManager.bluetoothTurnedOff {
+        viewModel.startScanning()
+        if !viewModel.bluetoothTurnedOff {
             showSearchingView = true
             
             DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
-                bluetoothManager.stopScanning()
-                deviceCount = bluetoothManager.discoveredDevices.count
+                viewModel.stopScanning()
+                deviceCount = viewModel.discoveredDevices.count
                 showSearchingView = false
                 showSuccessPopup = true
             }
