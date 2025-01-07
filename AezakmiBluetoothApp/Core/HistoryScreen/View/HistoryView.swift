@@ -60,9 +60,6 @@ struct HistoryView: View {
                 }
             }
         }
-        .onAppear {
-            viewModel.fetchAllDevices()
-        }
     }
 }
 

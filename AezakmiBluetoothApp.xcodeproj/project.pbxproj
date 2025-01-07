@@ -8,35 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		737355D05340C83F583A0D41 /* Pods_AezakmiBluetoothApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA16A6D496ABD9519D9695A /* Pods_AezakmiBluetoothApp.framework */; };
+		7778248D2D2DAEB10018E222 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777824642D2DAEB10018E222 /* LottieView.swift */; };
+		7778248E2D2DAEB10018E222 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777824662D2DAEB10018E222 /* DetailView.swift */; };
+		7778248F2D2DAEB10018E222 /* SearchSeans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777824682D2DAEB10018E222 /* SearchSeans.swift */; };
+		777824902D2DAEB10018E222 /* SeanceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7778246A2D2DAEB10018E222 /* SeanceScreen.swift */; };
+		777824912D2DAEB10018E222 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7778246C2D2DAEB10018E222 /* HistoryView.swift */; };
+		777824922D2DAEB10018E222 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7778246E2D2DAEB10018E222 /* HistoryViewModel.swift */; };
+		777824932D2DAEB10018E222 /* BluetoothDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777824712D2DAEB10018E222 /* BluetoothDevice.swift */; };
+		777824942D2DAEB10018E222 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777824732D2DAEB10018E222 /* MainView.swift */; };
+		777824952D2DAEB10018E222 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777824752D2DAEB10018E222 /* MainViewModel.swift */; };
+		777824962D2DAEB10018E222 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777824782D2DAEB10018E222 /* SplashView.swift */; };
+		777824972D2DAEB10018E222 /* SearchSeansRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7778247B2D2DAEB10018E222 /* SearchSeansRealm.swift */; };
+		777824982D2DAEB10018E222 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7778247D2D2DAEB10018E222 /* RealmManager.swift */; };
+		777824992D2DAEB10018E222 /* AezakmiBluetoothAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777824882D2DAEB10018E222 /* AezakmiBluetoothAppApp.swift */; };
+		7778249A2D2DAEB10018E222 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777824802D2DAEB10018E222 /* Preview Assets.xcassets */; };
+		7778249B2D2DAEB10018E222 /* devices.json in Resources */ = {isa = PBXBuildFile; fileRef = 777824822D2DAEB10018E222 /* devices.json */; };
+		7778249C2D2DAEB10018E222 /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = 777824832D2DAEB10018E222 /* error.json */; };
+		7778249D2D2DAEB10018E222 /* launch.json in Resources */ = {isa = PBXBuildFile; fileRef = 777824842D2DAEB10018E222 /* launch.json */; };
+		7778249E2D2DAEB10018E222 /* searching.json in Resources */ = {isa = PBXBuildFile; fileRef = 777824852D2DAEB10018E222 /* searching.json */; };
+		7778249F2D2DAEB10018E222 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 777824862D2DAEB10018E222 /* success.json */; };
+		777824A02D2DAEB10018E222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777824892D2DAEB10018E222 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AE46B26FB535448B604BB2A /* Pods-AezakmiBluetoothApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AezakmiBluetoothApp.debug.xcconfig"; path = "Target Support Files/Pods-AezakmiBluetoothApp/Pods-AezakmiBluetoothApp.debug.xcconfig"; sourceTree = "<group>"; };
 		6DA16A6D496ABD9519D9695A /* Pods_AezakmiBluetoothApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AezakmiBluetoothApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7774C24F2D2BFFD700B61B98 /* AezakmiBluetoothApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AezakmiBluetoothApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		777824642D2DAEB10018E222 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		777824662D2DAEB10018E222 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		777824682D2DAEB10018E222 /* SearchSeans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSeans.swift; sourceTree = "<group>"; };
+		7778246A2D2DAEB10018E222 /* SeanceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeanceScreen.swift; sourceTree = "<group>"; };
+		7778246C2D2DAEB10018E222 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		7778246E2D2DAEB10018E222 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		777824712D2DAEB10018E222 /* BluetoothDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDevice.swift; sourceTree = "<group>"; };
+		777824732D2DAEB10018E222 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		777824752D2DAEB10018E222 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		777824782D2DAEB10018E222 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		7778247B2D2DAEB10018E222 /* SearchSeansRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSeansRealm.swift; sourceTree = "<group>"; };
+		7778247D2D2DAEB10018E222 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		777824802D2DAEB10018E222 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		777824822D2DAEB10018E222 /* devices.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = devices.json; sourceTree = "<group>"; };
+		777824832D2DAEB10018E222 /* error.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = error.json; sourceTree = "<group>"; };
+		777824842D2DAEB10018E222 /* launch.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = launch.json; sourceTree = "<group>"; };
+		777824852D2DAEB10018E222 /* searching.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = searching.json; sourceTree = "<group>"; };
+		777824862D2DAEB10018E222 /* success.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		777824882D2DAEB10018E222 /* AezakmiBluetoothAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AezakmiBluetoothAppApp.swift; sourceTree = "<group>"; };
+		777824892D2DAEB10018E222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7778248B2D2DAEB10018E222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91C86C97B77FA5F84EE35C86 /* Pods-AezakmiBluetoothApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AezakmiBluetoothApp.release.xcconfig"; path = "Target Support Files/Pods-AezakmiBluetoothApp/Pods-AezakmiBluetoothApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7774C27C2D2C388E00B61B98 /* Exceptions for "AezakmiBluetoothApp" folder in "AezakmiBluetoothApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7774C24E2D2BFFD700B61B98 /* AezakmiBluetoothApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7774C2512D2BFFD700B61B98 /* AezakmiBluetoothApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7774C27C2D2C388E00B61B98 /* Exceptions for "AezakmiBluetoothApp" folder in "AezakmiBluetoothApp" target */,
-			);
-			path = AezakmiBluetoothApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7774C24C2D2BFFD700B61B98 /* Frameworks */ = {
@@ -53,7 +73,7 @@
 		7774C2462D2BFFD700B61B98 = {
 			isa = PBXGroup;
 			children = (
-				7774C2512D2BFFD700B61B98 /* AezakmiBluetoothApp */,
+				7778248C2D2DAEB10018E222 /* AezakmiBluetoothApp */,
 				7774C2502D2BFFD700B61B98 /* Products */,
 				BE7122F806F739D29502DA7A /* Pods */,
 				C9192E78BEAD95211E77C9DE /* Frameworks */,
@@ -66,6 +86,186 @@
 				7774C24F2D2BFFD700B61B98 /* AezakmiBluetoothApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		777824652D2DAEB10018E222 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				777824642D2DAEB10018E222 /* LottieView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		777824672D2DAEB10018E222 /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				777824662D2DAEB10018E222 /* DetailView.swift */,
+			);
+			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		777824692D2DAEB10018E222 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				777824682D2DAEB10018E222 /* SearchSeans.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7778246B2D2DAEB10018E222 /* SeanceView */ = {
+			isa = PBXGroup;
+			children = (
+				7778246A2D2DAEB10018E222 /* SeanceScreen.swift */,
+			);
+			path = SeanceView;
+			sourceTree = "<group>";
+		};
+		7778246D2D2DAEB10018E222 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7778246C2D2DAEB10018E222 /* HistoryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7778246F2D2DAEB10018E222 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7778246E2D2DAEB10018E222 /* HistoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		777824702D2DAEB10018E222 /* HistoryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				777824692D2DAEB10018E222 /* Models */,
+				7778246B2D2DAEB10018E222 /* SeanceView */,
+				7778246D2D2DAEB10018E222 /* View */,
+				7778246F2D2DAEB10018E222 /* ViewModel */,
+			);
+			path = HistoryScreen;
+			sourceTree = "<group>";
+		};
+		777824722D2DAEB10018E222 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				777824712D2DAEB10018E222 /* BluetoothDevice.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		777824742D2DAEB10018E222 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				777824732D2DAEB10018E222 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		777824762D2DAEB10018E222 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				777824752D2DAEB10018E222 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		777824772D2DAEB10018E222 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				777824722D2DAEB10018E222 /* Models */,
+				777824742D2DAEB10018E222 /* View */,
+				777824762D2DAEB10018E222 /* ViewModel */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		777824792D2DAEB10018E222 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				777824782D2DAEB10018E222 /* SplashView.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		7778247A2D2DAEB10018E222 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				777824672D2DAEB10018E222 /* DetailScreen */,
+				777824702D2DAEB10018E222 /* HistoryScreen */,
+				777824772D2DAEB10018E222 /* MainScreen */,
+				777824792D2DAEB10018E222 /* SplashScreen */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7778247C2D2DAEB10018E222 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7778247B2D2DAEB10018E222 /* SearchSeansRealm.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7778247E2D2DAEB10018E222 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				7778247C2D2DAEB10018E222 /* Models */,
+				7778247D2D2DAEB10018E222 /* RealmManager.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		7778247F2D2DAEB10018E222 /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				7778247E2D2DAEB10018E222 /* Realm */,
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
+		777824812D2DAEB10018E222 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				777824802D2DAEB10018E222 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		777824872D2DAEB10018E222 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				777824822D2DAEB10018E222 /* devices.json */,
+				777824832D2DAEB10018E222 /* error.json */,
+				777824842D2DAEB10018E222 /* launch.json */,
+				777824852D2DAEB10018E222 /* searching.json */,
+				777824862D2DAEB10018E222 /* success.json */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		7778248A2D2DAEB10018E222 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				777824872D2DAEB10018E222 /* Animation */,
+				777824882D2DAEB10018E222 /* AezakmiBluetoothAppApp.swift */,
+				777824892D2DAEB10018E222 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7778248C2D2DAEB10018E222 /* AezakmiBluetoothApp */ = {
+			isa = PBXGroup;
+			children = (
+				777824652D2DAEB10018E222 /* Components */,
+				7778247A2D2DAEB10018E222 /* Core */,
+				7778247F2D2DAEB10018E222 /* DataManagers */,
+				777824812D2DAEB10018E222 /* Preview Content */,
+				7778248A2D2DAEB10018E222 /* Resources */,
+				7778248B2D2DAEB10018E222 /* Info.plist */,
+			);
+			path = AezakmiBluetoothApp;
 			sourceTree = "<group>";
 		};
 		BE7122F806F739D29502DA7A /* Pods */ = {
@@ -101,9 +301,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7774C2512D2BFFD700B61B98 /* AezakmiBluetoothApp */,
 			);
 			name = AezakmiBluetoothApp;
 			productName = AezakmiBluetoothApp;
@@ -149,6 +346,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7778249A2D2DAEB10018E222 /* Preview Assets.xcassets in Resources */,
+				7778249B2D2DAEB10018E222 /* devices.json in Resources */,
+				7778249C2D2DAEB10018E222 /* error.json in Resources */,
+				7778249D2D2DAEB10018E222 /* launch.json in Resources */,
+				7778249E2D2DAEB10018E222 /* searching.json in Resources */,
+				7778249F2D2DAEB10018E222 /* success.json in Resources */,
+				777824A02D2DAEB10018E222 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +405,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7778248D2D2DAEB10018E222 /* LottieView.swift in Sources */,
+				7778248E2D2DAEB10018E222 /* DetailView.swift in Sources */,
+				7778248F2D2DAEB10018E222 /* SearchSeans.swift in Sources */,
+				777824902D2DAEB10018E222 /* SeanceScreen.swift in Sources */,
+				777824912D2DAEB10018E222 /* HistoryView.swift in Sources */,
+				777824922D2DAEB10018E222 /* HistoryViewModel.swift in Sources */,
+				777824932D2DAEB10018E222 /* BluetoothDevice.swift in Sources */,
+				777824942D2DAEB10018E222 /* MainView.swift in Sources */,
+				777824952D2DAEB10018E222 /* MainViewModel.swift in Sources */,
+				777824962D2DAEB10018E222 /* SplashView.swift in Sources */,
+				777824972D2DAEB10018E222 /* SearchSeansRealm.swift in Sources */,
+				777824982D2DAEB10018E222 /* RealmManager.swift in Sources */,
+				777824992D2DAEB10018E222 /* AezakmiBluetoothAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

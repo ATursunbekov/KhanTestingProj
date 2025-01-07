@@ -9,6 +9,7 @@ import SwiftUI
 import Lottie
 
 struct MainView: View {
+    
     @State var showSplash = true
     @State private var showSuccessPopup = false
     @State private var showSearchingView = false
